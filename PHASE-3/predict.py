@@ -7,12 +7,12 @@ def predict_patient(data_dict):
     import pandas as pd
     import pickle
 
-    scaler = pickle.load(open("scaler.pkl", "rb"))
-    selector = pickle.load(open("selector.pkl", "rb"))
-    model = pickle.load(open("logistic_model.pkl", "rb"))
+    scaler = pickle.load(open("model/scaler.pkl", "rb"))
+    selector = pickle.load(open("model/selector.pkl", "rb"))
+    model = pickle.load(open("model/logistic_model.pkl", "rb"))
 
-    all_features = pickle.load(open("all_features.pkl", "rb"))
-    selected_features = pickle.load(open("selected_features.pkl", "rb"))
+    all_features = pickle.load(open("model/all_features.pkl", "rb"))
+    selected_features = pickle.load(open("model/selected_features.pkl", "rb"))
 
     df = pd.DataFrame([data_dict])
 
