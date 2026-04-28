@@ -4,7 +4,7 @@
 
 This project is a Machine Learning-based system designed to predict the likelihood of heart disease based on clinical parameters. The goal is to assist in early detection by analyzing patient data and providing a risk prediction.
 
-The project was developed as part of a Problem-Based Learning (PBL) initiative and is structured into three distinct phases: data analysis, model training, and deployment.
+The project was developed as part of a Problem-Based Learning (PBL) initiative and is structured into three distinct phases
 
 ---
 
