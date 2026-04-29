@@ -12,7 +12,6 @@ def predict_patient(data_dict):
     model = pickle.load(open("model/logistic_model.pkl", "rb"))
 
     all_features = pickle.load(open("model/all_features.pkl", "rb"))
-    selected_features = pickle.load(open("model/selected_features.pkl", "rb"))
 
     df = pd.DataFrame([data_dict])
 
